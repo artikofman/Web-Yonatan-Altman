@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Volunteering</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <form>
-        
-    </form>
+    <div class="wrapper">
+        <div class="creation-form">
+            <div class="field">
+                <input type="text" name="volunt-name" minlength="3" required>
+                <label for="volunt-name">שם התנדבות</label>
+            </div>
+            <div class="field">
+                <input type="text" name="volunt-desc" minlength="20">
+                <label for="volunt-desc">תיאור</label>
+            </div>
+            <div class="field">
+                <select name="volunt-for">
+                    <option value="1">ילדים</option>
+                    <option value="2">נוער</option>
+                    <option value="3">מבוגרים</option>
+                    <option value="4">חיות</option>
+                </select>
+                <label for="volunt-for">אוכלוסית יעד</label>
+            </div>
+            <div class="field">
+                <select name="volunt-day">
+                    <option value="1">ראשון</option>
+                    <option value="2">שני</option>
+                    <option value="3">שלישי</option>
+                    <option value="4">רביעי</option>
+                    <option value="5">חמישי</option>
+                </select>
+                <label for="volunt-day">יום בשבוע</label>
+            </div>
+            <div class="field">
+                <input type="text" name="volunt-name" minlength="3">
+                <label for="volunt-name">שם התנדבות</label>
+            </div>
+            <div class="field">
+                <input type="text" name="volunt-name" minlength="3">
+                <label for="volunt-name">שם התנדבות</label>
+            </div>
+            <div class="field">
+                <input type="text" name="volunt-name" minlength="3">
+                <label for="volunt-name">שם התנדבות</label>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
