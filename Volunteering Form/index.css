@@ -13,6 +13,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 180px);
     margin: 7px;
+    direction: rtl;
+    height: 23px;
 }
 
 .field label {
@@ -21,4 +23,5 @@ body {
 
 select {
     direction: rtl;
+    height: 23px;
 }
