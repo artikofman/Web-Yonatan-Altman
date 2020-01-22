@@ -12,15 +12,15 @@
 <body>
     <div class="wrapper">
         <div class="creation-form">
-            <div class="field">
+            <div class="field rtl-field">
                 <label for="volunt-name">שם התנדבות</label>
                 <input type="text" name="volunt-name" minlength="3" required>
             </div>
-            <div class="field">
+            <div class="field rtl-field">
                 <label for="volunt-desc">תיאור</label>
                 <input type="text" name="volunt-desc" minlength="20">
             </div>
-            <div class="field">
+            <div class="field rtl-field">
                 <label for="volunt-for">אוכלוסית יעד</label>
                 <select name="volunt-for">
                     <option value="1">ילדים</option>
@@ -29,7 +29,7 @@
                     <option value="4">חיות</option>
                 </select>
             </div>
-            <div class="field">
+            <div class="field rtl-field">
                 <label for="volunt-day">יום בשבוע</label>
                 <select name="volunt-day">
                     <option value="1">ראשון</option>
@@ -39,18 +39,24 @@
                     <option value="5">חמישי</option>
                 </select>
             </div>
-            <div class="field">
+            <div class="field rtl-field">
                 <label for="volunt-time">שעה</label>
                 <input type="time" name="volunt-time">
             </div>
-            <div class="field">
+            <div class="field rtl-field">
                 <label for="volunt-address">כתובת</label>
                 <input type="text" name="volunt-address">
             </div>
-            <div class="field">
-                <label for="volunt-email">אימייל</label>
+            <div class="field ltr-field">
                 <input type="text" id="volunt-email" name="volunt-email">
+                <label for="volunt-email">אימייל</label>
             </div>
+
+            &nbsp;
+
+            <button class="submit-btn">
+                הקם התנדבות
+            </button>
         </div>
     </div>
 
